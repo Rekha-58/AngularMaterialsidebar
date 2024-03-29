@@ -1,0 +1,17 @@
+<div class="flex-container">
+    <div [formGroup]="todoForm" class="todos">
+      <input type="input" formControlName="todo" />
+    </div>
+  
+    <div class="todosadd">
+      <button
+        class="btn btn-primary"
+        [disabled]="todoForm.invalid"
+        (click)="addTasks()"
+      >
+        Add
+      </button>
+    </div>
+    
+  </div>
+  

@@ -1,0 +1,27 @@
+h1{
+    color: white;
+    padding:0.5em;
+    font-family: 'Courier New', 'Courier, monospace';
+    margin-left: 0%;
+    margin: 0;
+}
+h3{
+    color: white;
+    background-color: black;
+    padding: 0.5em;
+    font-family: 'Arial';
+    font-size: 15px;
+}/*
+.side{
+    background-color: rgb(219, 111, 219);
+}
+.side:hover{
+    background-color: blueviolet;
+}*/
+/*
+a{
+    color: white;
+    background-color: purple;
+    padding: 10px 10px;
+}
+*/

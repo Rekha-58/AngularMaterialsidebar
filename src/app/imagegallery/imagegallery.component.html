@@ -1,0 +1,14 @@
+<div class="container">
+    
+    <h1 >Image Gallery App</h1>
+  
+    <div class="arrow-right" (click)="selectArrow()"></div>
+    <div class="arrow-left" (click)="selectLeftArrow()"></div>
+  <app-preview srcUrl="{{pictures[currentPicture]}}">
+  </app-preview>
+  <div class="wrapper"><app-thumb *ngFor="let picture of pictures; let i = index" (click)="select(i)" srcUrl="{{picture}}"> </app-thumb>
+  <!-- <app-thumb (click)="select(1)" srcUrl="{{pictures[1]}}"></app-thumb>
+  <app-thumb (click)="select(2)" srcUrl="{{pictures[2]}}"></app-thumb>
+  <app-thumb (click)="select(3)"srcUrl="{{pictures[3]}}"></app-thumb> -->
+  </div>
+  </div>
